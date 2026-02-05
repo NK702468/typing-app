@@ -1,6 +1,5 @@
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { ROUTES } from './ROUTES'
 import HomePage from './pages/HomePage'
 import ResultPage from './pages/ResultPage'
 import TypingJS from './pages/TypingJS'
@@ -15,11 +14,11 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path={ROUTES.HOME} element={<HomePage />}/>
-          <Route path={ROUTES.HTML} element={<TypingHTML/>}/>
-          <Route path={ROUTES.CSS} element={<TypingCSS/>}/>
-          <Route path={ROUTES.JS} element={<TypingJS/>}/>
-          <Route path={ROUTES.RESULT} element={<ResultPage />}/>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="/html-typing" element={<TypingHTML/>}/>
+          <Route path="/css-typing" element={<TypingCSS/>}/>
+          <Route path="/js-typing" element={<TypingJS/>}/>
+          <Route path="/result" element={<ResultPage />}/>
         </Routes>
       </HashRouter>
     </>
