@@ -1,0 +1,21 @@
+export const Questions = {
+    html:[
+        "h1",
+        "button",
+        "input",
+        "span"
+    ],
+    css:[
+        "padding",
+        "height",
+        "width",
+        "margin"
+    ],
+    js:[
+        "getElementById",
+        "const",
+        "console.log",
+        "addEventListener",
+        "let"
+    ]
+};
