@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/typing-app">
         <Routes>
           <Route path="/" element={<HomePage />}/>
           <Route path="/html-typing" element={<TypingHTML/>}/>
