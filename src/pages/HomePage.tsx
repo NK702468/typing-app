@@ -11,6 +11,7 @@ export default function HomePage({}: Props) {
       <p>
         フロントエンドの言語でよく使われる文字列を対象にしたタイピングゲームです<br />
         下記の言語から練習したいものを選択してください
+        頑張りましょう
       </p>
       <div className={styles.option}>
         {routeButtons.map((btn) => (
