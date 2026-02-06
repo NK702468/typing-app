@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/HomePage'
 import ResultPage from './pages/ResultPage'
@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/typing-app">
         <Routes>
           <Route path="/" element={<HomePage />}/>
           <Route path="/html-typing" element={<TypingHTML/>}/>
@@ -20,7 +19,6 @@ function App() {
           <Route path="/js-typing" element={<TypingJS/>}/>
           <Route path="/result" element={<ResultPage />}/>
         </Routes>
-      </BrowserRouter>
     </>
   )
 }
