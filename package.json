@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NK702468.github.io/typing-app/",
+  "homepage": "https://nk702468.github.io/typing-app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
